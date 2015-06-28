@@ -1,0 +1,97 @@
+<S>
+S
+</S>
+<V>
+S
+VP
+NP
+Verb
+Noun
+Pronoun
+Preposition
+Determiner
+Adjective
+</V>
+<T>
+cup
+coffee
+memo
+office
+offices
+time
+door
+trash
+A
+B
+C
+D
+Ben
+bring
+take
+clean
+open
+close
+empty
+lock
+remind
+call
+is
+me
+my
+what
+to
+from
+of
+the
+a
+this
+all
+</T>
+<P>
+S ::= VP NP
+VP ::= Pronoun VP
+VP ::= VP Pronoun
+VP ::= VP VP
+VP ::= Preposition Verb
+VP ::= Verb
+NP ::= NP NP
+NP ::= Determiner NP
+NP ::= Adjective NP
+NP ::= Pronoun NP
+NP ::= Preposition NP
+NP ::= Noun NP
+NP ::= Noun
+Noun ::= cup
+Noun ::= coffee
+Noun ::= memo
+Noun ::= office
+Noun ::= offices
+Noun ::= time
+Noun ::= door
+Noun ::= trash
+Noun ::= A
+Noun ::= B
+Noun ::= C
+Noun ::= D
+Noun ::= Ben
+Verb ::= bring
+Verb ::= take
+Verb ::= clean
+Verb ::= open
+Verb ::= close
+Verb ::= empty
+Verb ::= lock
+Verb ::= remind
+Verb ::= call
+Verb ::= is
+Pronoun ::= me
+Pronoun ::= my
+Pronoun ::= what
+Preposition ::= to
+Preposition ::= from
+Preposition ::= of
+Determiner ::= the
+Determiner ::= a
+Determiner ::= this
+Adjective ::= all
+</P>
